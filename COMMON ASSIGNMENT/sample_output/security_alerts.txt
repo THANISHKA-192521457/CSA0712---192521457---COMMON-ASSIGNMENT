@@ -1,0 +1,4 @@
+[HIGH    ] t=35s  Port Scan                source 203.0.113.50    6 different ports probed within 10s
+[MEDIUM  ] t=35s  Repeated Blocked Access  source 203.0.113.50    5 blocked attempts so far
+[MEDIUM  ] t=40s  Repeated Blocked Access  source 203.0.113.66    5 blocked attempts so far
+[CRITICAL] t=43s  DoS / Flood              source 203.0.113.66    20 packets within 10s

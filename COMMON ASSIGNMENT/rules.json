@@ -1,0 +1,10 @@
+[
+  {"id": 1, "action": "BLOCK", "src": "203.0.113.66", "dst": "any", "port": "any", "protocol": "ANY", "description": "Known malicious host (blacklist)"},
+  {"id": 2, "action": "BLOCK", "src": "any", "dst": "any", "port": "23", "protocol": "TCP", "description": "Telnet is insecure, block everywhere"},
+  {"id": 3, "action": "BLOCK", "src": "any", "dst": "any", "port": "3389", "protocol": "TCP", "description": "Remote Desktop not allowed from outside"},
+  {"id": 4, "action": "ALLOW", "src": "any", "dst": "any", "port": "80", "protocol": "TCP", "description": "Web traffic (HTTP)"},
+  {"id": 5, "action": "ALLOW", "src": "any", "dst": "any", "port": "443", "protocol": "TCP", "description": "Secure web traffic (HTTPS)"},
+  {"id": 6, "action": "ALLOW", "src": "any", "dst": "any", "port": "53", "protocol": "UDP", "description": "DNS lookups"},
+  {"id": 7, "action": "ALLOW", "src": "192.168.1.0/24", "dst": "any", "port": "22", "protocol": "TCP", "description": "SSH only from the internal network"},
+  {"id": 8, "action": "ALLOW", "src": "192.168.1.0/24", "dst": "any", "port": "25", "protocol": "TCP", "description": "Mail sending from the internal network"}
+]
